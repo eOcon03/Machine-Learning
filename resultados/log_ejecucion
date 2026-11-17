@@ -1,0 +1,33 @@
+0) Datasets
+1) Comparativa default
+  Sintético  Distancia Mínima   listo
+  Sintético  1-NN               listo
+  Sintético  K-NN (k=5)         listo
+  Sintético  Naïve Bayes        listo
+  Sintético  SVM                listo
+  Sintético  MLP                listo
+  Wine       Distancia Mínima   listo
+  Wine       1-NN               listo
+  Wine       K-NN (k=5)         listo
+  Wine       Naïve Bayes        listo
+  Wine       SVM                listo
+  Wine       MLP                listo
+2) K-NN
+2) SVM
+2) MLP
+2) Escalado
+3) CV anidada
+  Sintético  K-NN   anidada 84.35%  {'k': 5, 'metrica': 'euclidiana', 'pesos': 'uniforme'}
+  Sintético  SVM    anidada 84.68%  {'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}
+  Sintético  MLP    anidada 86.84%  {'activation': 'tanh', 'alpha': 1.0, 'hidden_layer_sizes': (100,)}
+  Wine       K-NN   anidada 97.19%  {'k': 1, 'metrica': 'manhattan', 'pesos': 'uniforme'}
+  Wine       SVM    anidada 97.19%  {'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}
+  Wine       MLP    anidada 97.74%  {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (20,)}
+4) Complejidad
+  n=600 listo
+  n=1200 listo
+  n=2400 listo
+  n=4800 listo
+  n=9600 listo
+  n=19200 listo
+Listo en 362.2 s
