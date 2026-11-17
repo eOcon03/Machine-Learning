@@ -1,0 +1,49 @@
+{
+  "datasets": {
+    "Sintético": {
+      "n": 600,
+      "d": 6,
+      "por_clase": [
+        192,
+        198,
+        210
+      ],
+      "rasgos": [
+        "x0",
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5"
+      ],
+      "etiquetas_invertidas": 62,
+      "outliers": 18
+    },
+    "Wine": {
+      "n": 178,
+      "d": 13,
+      "por_clase": [
+        59,
+        71,
+        48
+      ],
+      "rasgos": [
+        "alcohol",
+        "malic_acid",
+        "ash",
+        "alcalinity_of_ash",
+        "magnesium",
+        "total_phenols",
+        "flavanoids",
+        "nonflavanoid_phenols",
+        "proanthocyanins",
+        "color_intensity",
+        "hue",
+        "od280/od315_of_diluted_wines",
+        "proline"
+      ]
+    }
+  },
+  "repeticiones_holdout": 20,
+  "tiempo_total_s": 298.2225310999993
+}
